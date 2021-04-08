@@ -1,5 +1,5 @@
 import { RoutesInput } from '../types/route'
-import UserController from '../Controller/User.controller'
+import UserController from '../Controllers/User.controller'
 
 export default ({ app }: RoutesInput) => {
     app.post("api/user", async (req, res) => {
